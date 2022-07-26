@@ -1,5 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    if (receivedNumber >= dice) {
+    if (receivedNumber > dice) {
         basic.showIcon(IconNames.Sad)
     } else if (receivedNumber == dice) {
         basic.showIcon(IconNames.Asleep)
